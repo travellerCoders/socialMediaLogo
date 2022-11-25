@@ -31,7 +31,7 @@ ul li a .fa-brands {
 ul li a::before {
   font-family: "FontAwesome";
   position: absolute;
-  top: 0;
+  top: -20px;
   left: 0;
   font-size: 6em;
   height: 0;
@@ -63,5 +63,4 @@ ul li:nth-child(3) a::before {
 }
 ul li:hover a::before {
   height: 120px;
-  alignment: initial;
 }
